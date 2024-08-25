@@ -42,7 +42,7 @@ async function fetchData<T>(
         `Attempt ${attempt + 1} failed: ${(error as Error).message}`
       );
       if (attempt === 2) {
-        throw new Error(`Failed after 3 attempts: ${(error as Error).message}`); 
+        throw new Error(`Failed after 3 attempts: ${(error as Error).message}`);
       }
     }
   }

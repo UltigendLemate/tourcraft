@@ -1835,7 +1835,6 @@
     // const config = { ...defaultConfig, ...window.userChatbotConfig };
     const privateKey = config.privateKey
     const personaId = config.personaId
-    console.log(privateKey)
  
 
     const init = async() => {
